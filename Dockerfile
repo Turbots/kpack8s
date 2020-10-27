@@ -7,4 +7,5 @@ RUN chmod +x /usr/local/bin/kp
 
 USER 1001
 
-ENTRYPOINT [ "/bin/sh" ]
+ENTRYPOINT [ "kp" ]
+
